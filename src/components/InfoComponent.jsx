@@ -1,3 +1,3 @@
-function InfoComponent() {}
+function InfoComponent({ text, type, id }) {}
 
 return InfoComponent;
