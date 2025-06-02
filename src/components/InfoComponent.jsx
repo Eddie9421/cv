@@ -1,0 +1,3 @@
+function InfoComponent() {}
+
+return InfoComponent;
