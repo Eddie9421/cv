@@ -4,6 +4,7 @@ function InfoComponent({ infoFields }) {
       {infoFields.map((item, i) => {
         <label htmlFor={item.name} key={i}>
           {item.text}
+          <input type={item.name} id={item.name} />
         </label>;
       })}
     </section>
