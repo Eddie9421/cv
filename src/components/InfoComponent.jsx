@@ -1,3 +1,3 @@
-function InfoComponent({ text, type, id }) {}
+function InfoComponent({ infoFields }) {}
 
 return InfoComponent;
